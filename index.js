@@ -8,7 +8,13 @@ function slide1() {
     document.getElementById('slide2').className = "slide1"
     document.getElementById('slide3').className = "slide3"
     document.getElementById("class_number1").innerHTML = "سال دهم"
-    // document.getElementById("class_number2").innerHTML = "10 "
+
+
+    document.getElementById("class_answer2").style.display = "none"
+    document.getElementById("class_answer3").style.display = "none"
+    document.getElementById("class_answer1").style.display = "flex"
+
+
 
     document.getElementById('box').style.backgroundImage = "url(images/background1.png)";
     document.getElementById('color').style.color = "#ffd74e"
@@ -28,8 +34,11 @@ function slide2() {
     }
 
     document.getElementById("class_number1").innerHTML = "سال یازدهم"
-    // document.getElementById("class_number2").innerHTML = "11 "
 
+
+    document.getElementById("class_answer1").style.display = "none"
+    document.getElementById("class_answer3").style.display = "none"
+    document.getElementById("class_answer2").style.display = "flex"
 
     document.getElementById('box').style.backgroundImage = "url(images/background3.png)"
     document.getElementById('color').style.color = "#a365ae"
@@ -51,7 +60,12 @@ function slide3() {
     document.getElementById('slide2').className = "slide3"
     document.getElementById('slide1').className = "slide1"
     document.getElementById("class_number1").innerHTML = "سال دوازدهم"
-    // document.getElementById("class_number2").innerHTML = "12 "
+
+
+    document.getElementById("class_answer2").style.display = "none"
+    document.getElementById("class_answer1").style.display = "none"
+    document.getElementById("class_answer3").style.display = "flex"
+
 
     document.getElementById('box').style.backgroundImage = "url(images/background2.png)"
 
